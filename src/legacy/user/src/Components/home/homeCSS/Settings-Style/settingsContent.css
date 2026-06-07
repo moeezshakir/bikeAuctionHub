@@ -1,0 +1,118 @@
+@import url("../cssTheme.css");
+
+.settingsTilesContent {
+  width: 100%;
+  padding: 0 20px 40px;
+}
+
+.settingsTilesContent .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 20px;
+  background-color: #f5f6f7;
+  position: sticky;
+  top: 0px;
+}
+
+.settingsTilesContent .header .moveBack {
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.settingsTilesContent .header .moveBack:hover {
+  outline: 2px solid #000000;
+}
+
+.settingsTilesContent .header .moveBack svg {
+  width: 20px;
+  height: 20px;
+}
+
+.settingsTilesContent .header span {
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.settingsTilesContent .contentBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settingsTilesContent .contentBox .section {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.settingsTilesContent .contentBox .section span {
+  font-size: 17px;
+}
+
+.settingsTilesContent .contentBox .section p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 899px) {
+  .settingsTilesContent {
+    padding: 0 0 40px;
+  }
+  .settingsTilesContent .header {
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .settingsTilesContent .header span {
+    font-size: 15px;
+  }
+  .settingsTilesContent .contentBox {
+    gap: 8px;
+  }
+  .settingsTilesContent .contentBox .section {
+    padding: 5px 12px;
+  }
+  .settingsTilesContent .contentBox .section:last-child {
+    margin-bottom: 20px;
+  }
+  .settingsTilesContent .contentBox .section span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .settingsTilesContent .contentBox .section p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .settingsTilesContent .header span {
+    font-size: 14px;
+  }
+  .settingsTilesContent .contentBox .section {
+    padding: 5px 12px;
+  }
+  .settingsTilesContent .contentBox .section span {
+    font-size: 14px;
+  }
+  .settingsTilesContent .contentBox .section p {
+    font-size: 12.5px;
+  }
+}

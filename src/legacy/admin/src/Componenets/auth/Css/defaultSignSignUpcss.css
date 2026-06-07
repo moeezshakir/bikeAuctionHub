@@ -1,0 +1,247 @@
+/* default css contants */
+@import url(./authFLowCSSConstants.css);
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  background-color: var(--bg-color);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: hidden;
+  /* min-height: 600px; */
+  overflow-y: auto;
+}
+
+.container .artboard,
+.container .box,
+.container .box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .artboard .artboardPic {
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+}
+
+.container .artboard .artboardPic img {
+  width: 100%;
+}
+
+.container .artboard span {
+  font-size: 1rem;
+  line-height: normal;
+  color: #000000;
+}
+
+.container .box {
+  background-color: var(--field-box-color);
+  padding: 35px !important;
+  border-radius: 40px;
+  color: var(--box-txt-color);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Form styling */
+.container .box form {
+  padding: 8px;
+  align-items: unset;
+  width: 100%;
+}
+.container .box form span {
+  display: flex;
+  color: var(--bg-plus-txt-color);
+}
+.container .box form span span {
+  margin-left: 10px;
+}
+/* Input fields styling */
+.container .box .input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .box input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.container .box input::placeholder {
+  font-size: 12px;
+  color: #797979;
+}
+
+.container .box input:focus {
+  outline: 3px solid var(--bg-plus-txt-color);
+}
+
+.container .box label {
+  font-weight: 500;
+}
+
+.container .box .input-group.fc {
+  margin: 1.2rem 0;
+}
+
+.container .box .input-group.sc {
+  margin-bottom: 0.4rem;
+}
+
+.container .box .error {
+  color: var(--error-color);
+  padding: 4px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+/* Button styling */
+.container .box button,
+.SUOP button {
+  padding: 10px 30px;
+  margin: 0.55rem auto;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 160px;
+  opacity: 0.8;
+}
+
+.container .box button:hover {
+  transform: scale(0.95);
+  opacity: 1;
+}
+
+/* Links styling */
+.container .box a {
+  text-decoration: none;
+  color: var(--box-txt-color);
+  font-weight: 600;
+  width: 130px;
+  margin-left: 5px;
+}
+.container .box a.signUp {
+  font-weight: 600;
+}
+
+.container .box a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 990px) {
+  .container .artboard .artboardPic {
+    width: 90px;
+    height: 90px;
+  }
+  .container .box {
+    padding: 30px !important;
+  }
+  .container .box form {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    /* background: var(--resposive-page-bg-color); */
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .container .box {
+    width: 350px;
+    box-shadow: none;
+    background: none;
+  }
+
+  .container .box form span {
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .container .box form .hide,
+  .container .box form p {
+    display: none;
+  }
+
+  .container .box form span span {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .container .artboard span {
+    font-size: 0.9rem;
+  }
+
+  .container .box input {
+    padding: 8px;
+    margin: 4px;
+    font-size: 14px;
+  }
+  .container .box input:focus {
+    outline: 2px solid var(--bg-plus-txt-color);
+  }
+  .container .box button {
+    padding: 8px 25px;
+    width: 150px;
+  }
+
+  .container .box label {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .container .box a {
+    width: 140px;
+    font-weight: 700;
+  }
+  .container .box a.signUp {
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container .artboard .artboardPic {
+    width: 80px;
+    height: 80px;
+  }
+  .container .artboard span {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .container .box a {
+    font-size: 15px;
+  }
+  .container .box button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  /* .container .artboard .artboardPic {
+    width: 82px;
+    height: 82px;
+  } */
+  .container .box {
+    width: 100%;
+    margin: 10px;
+    padding: 20px 0;
+  }
+
+  .container .box form {
+    padding: 10px;
+    width: 100%;
+  }
+}

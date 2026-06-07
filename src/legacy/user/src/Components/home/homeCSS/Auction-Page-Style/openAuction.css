@@ -1,0 +1,54 @@
+@import url("../cssTheme.css");
+
+.auctionContent {
+  width: 94%;
+  height: 100%;
+  gap: 14px;
+  padding: 20px;
+}
+
+.auctionContent .auctionNavBar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #f5f6f7;
+}
+
+.auctionContent .auctionNavBar button {
+  transition: 0.1s all;
+}
+
+.auctionContent .auctionNavBar button.active:hover {
+  background: none !important;
+  /* color: #ffffff !important; */
+}
+
+.auctionContent .auctionNavBar button.nonactive:hover {
+  background: rgba(192, 185, 185, 0.2) !important;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

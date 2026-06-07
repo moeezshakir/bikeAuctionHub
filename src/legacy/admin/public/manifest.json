@@ -1,0 +1,25 @@
+{
+  "short_name": "Bike Auction Hub/admin",
+  "name": "Bike Auction Hub/admin",
+  "icons": [
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "160x159"
+    },
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "319x317"
+    },
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "479x475"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

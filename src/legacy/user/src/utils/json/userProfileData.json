@@ -1,0 +1,16 @@
+{
+  "profileInfo": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "123-456-7890",
+    "address": "123 Main St, Cityville",
+    "nationality": "Country",
+    "languages": "English, Spanish"
+  },
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/johndoe",
+    "instagram": "https://www.instagram.com/johndoe",
+    "linkedIn": "https://www.twitter.com/johndoe",
+    "youtube": "https://www.youtube.com/johndoe"
+  }
+}

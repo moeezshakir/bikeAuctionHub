@@ -1,0 +1,137 @@
+@import url("../cssTheme.css");
+
+.createSlotForm {
+  width: 100%;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.createSlotForm .imagePreviewBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #aaa;
+  margin-bottom: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imagePreviewBox .imageContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imagePreviewBox .imageCard {
+  width: 380px;
+  min-width: 380px;
+  height: 340px;
+  margin: 5px;
+  position: relative;
+}
+
+.imagePreviewBox .imageCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.imagePreviewBox .imageContainer .removeImage {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  width: 25px;
+  height: 25px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.imagePreviewBox .imageContainer .removeImage svg {
+  width: 22px;
+  height: 22px;
+}
+
+.imagePreviewBox .span {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.imagePreviewBox span {
+  display: block;
+  text-align: center;
+  color: #888;
+}
+
+/* Style for the file input, hide by default */
+#createSlotForm input[type="file"] {
+  display: none;
+}
+
+.createSlotForm h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.createSlotForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.createSlotForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createSlotForm input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createSlotForm input[type="number"]::-webkit-inner-spin-button,
+.createSlotForm input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.createSlotForm input[type="number"] {
+  -webkit-appearance: textfield; /* For WebKit browsers */
+  -moz-appearance: textfield; /* For Firefox */
+  appearance: textfield; /* Standard property */
+}
+
+.createSlotForm button {
+  background-color: #333333;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #333333;
+  transition: 0.2s all;
+}
+
+.createSlotForm button:hover {
+  background-color: #ffffff;
+  color: #333333;
+}

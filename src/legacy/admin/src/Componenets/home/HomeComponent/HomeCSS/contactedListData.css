@@ -1,0 +1,46 @@
+.cntldcfs {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cntldcfs .ctListDataInd {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.cntldcfs .hdfdt {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 17px;
+  border-bottom: 1px solid #333333;
+}
+
+.cntldcfs span {
+  font-size: 14px;
+  line-height: normal;
+}
+
+.cntldcfs .rfri {
+  display: flex;
+  gap: 4px;
+}
+
+.cntldcfs p {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.cntldcfs .pgcntfcntld {
+  align-self: center !important;
+  margin: 10px 0;
+}

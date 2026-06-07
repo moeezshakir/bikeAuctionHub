@@ -1,0 +1,61 @@
+@import url("cssTheme.css");
+
+.appContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.appContainer .containerChild {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.appContainer .containerChild .content-container {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  /* margin-left: 300px; */
+  /* padding: 0 20px; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ads-heading {
+  position: relative;
+  margin: 10px 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.main-conatiner-ads {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 899px) {
+  .appContainer {
+    gap: 0;
+  }
+  .appContainer .containerChild .content-container {
+    margin-left: unset;
+  }
+  .appContainer .containerChild {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .appContainer .containerChild .content-container {
+    padding: 0 12px;
+  } */
+}

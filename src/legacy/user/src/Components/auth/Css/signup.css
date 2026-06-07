@@ -1,0 +1,116 @@
+@import url(./authFLowCSSConstants.css);
+
+.container .box .input-group.fc {
+  margin: 0.4rem 0;
+}
+
+.SUOP {
+  width: 320px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--field-box-color);
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.btnnbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.SUOP button {
+  width: 112px;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.SUOP button:hover {
+  opacity: 1;
+  transform: scale(0.95);
+}
+
+.SUOP p {
+  width: 85%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000000;
+}
+
+.SUOP p a {
+  color: var(--bg-plus-txt-color);
+  text-decoration: none;
+}
+
+.SUOP p a:hover {
+  text-decoration: underline;
+}
+
+.SUOP p svg {
+  align-self: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.container .boxSUD {
+  display: none;
+  animation: pass 0.3s forwards;
+}
+
+@keyframes pass {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .boxSU {
+    padding: 0 0 12px 0 !important;
+  }
+  .SUOP button {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container .box .formSU {
+    padding: 10px;
+  }
+  .container .box {
+    padding: 10px !important;
+  }
+  .container .boxSU {
+    padding: 0 0 12px 0 !important;
+  }
+  .container .boxSU .input-group {
+    margin: 0.4rem 0 0 0;
+  }
+  .container .boxSU .input-group.fc,
+  .container .boxSU .input-group.sc {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .SUOP {
+    width: 100%;
+  }
+}

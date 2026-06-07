@@ -1,0 +1,46 @@
+.container .box .pos-rel {
+  position: relative;
+}
+
+.container .box input {
+  z-index: 0;
+}
+
+.container .box .btn {
+  position: absolute;
+  top: 32px;
+  right: 6px;
+  background: none;
+  color: #222222;
+  margin: 0;
+  padding: 3px;
+  width: 50px;
+  /* border-left: 2px solid #7b7b7b; */
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+  background-color: var(--input-field-color);
+}
+
+.container .box .btn:hover {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 768px) {
+  .container .box .btn {
+    /* padding: 2px 8px; */
+    /* border: none; */
+    top: 27px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container .box .btn {
+    height: 25px;
+  }
+}

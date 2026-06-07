@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "Mountain Bike",
+      "imageUrl": "default_mountain_bike.jpg",
+      "pricePerHour": 120,
+      "bikeBookingStatus": "available"
+    },
+    {
+      "id": 2,
+      "type": "Road Bike",
+      "imageUrl": "default_road_bike.jpg",
+      "pricePerHour": 150,
+      "bikeBookingStatus": "booked"
+    },
+    {
+      "id": 3,
+      "type": "City Bike",
+      "imageUrl": "default_city_bike.jpg",
+      "pricePerHour": 110,
+      "bikeBookingStatus": "available"
+    },
+    {
+      "id": 4,
+      "type": "BMX Bike",
+      "imageUrl": "default_bmx_bike.jpg",
+      "pricePerHour": 130,
+      "bikeBookingStatus": "available"
+    },
+    {
+      "id": 5,
+      "type": "Electric Bike",
+      "imageUrl": "default_electric_bike.jpg",
+      "pricePerHour": 200,
+      "bikeBookingStatus": "booked"
+    },
+    {
+      "id": 6,
+      "type": "Cruiser Bike",
+      "imageUrl": "default_cruiser_bike.jpg",
+      "pricePerHour": 180,
+      "bikeBookingStatus": "available"
+    }
+  ]
+}

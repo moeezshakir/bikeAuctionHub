@@ -1,0 +1,76 @@
+@import url("../../home/homeCSS/cssTheme.css");
+
+.navbarOuter {
+  width: 100%;
+  /* height: 62px;
+  min-height: 62px; */
+  position: relative;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  /* position: fixed; */
+  /* top: 0; */
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary);
+  padding: 15px 20px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.navbar .listBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+  border: 1px solid var(--color-white);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.navbar .listBar:hover {
+  outline: 1px solid var(--color-white);
+}
+
+.navbar .listBar svg {
+  width: 24px;
+  height: 24px;
+  /* margin: 2px; */
+}
+
+.navbar .listBar svg path {
+  fill: var(--color-white);
+}
+
+.navbar a {
+  line-height: normal;
+  font-size: clamp(14px, 3vw, 22px);
+  color: var(--color-white);
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 899px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  /* .navbar .listBar {
+    display: flex;
+  } */
+}
+
+/* @media screen and (max-width: 540px) {
+  .navbarOuter {
+    height: 50px;
+    min-height: 50px;
+  }
+} */

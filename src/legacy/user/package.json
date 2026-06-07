@@ -1,0 +1,87 @@
+{
+  "name": "riderentalhub",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@googlemaps/markerclustererplus": "^1.2.10",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.14.2",
+    "auth0-js": "^9.24.1",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "browserify-zlib": "^0.2.0",
+    "chart.js": "^4.4.1",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.5",
+    "framer-motion": "^11.0.6",
+    "html2canvas": "^1.4.1",
+    "https-browserify": "^1.0.0",
+    "i18next": "^23.10.0",
+    "jspdf": "^2.5.1",
+    "leaflet": "^1.9.4",
+    "mobx": "^6.12.0",
+    "mobx-react": "^9.1.0",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.12",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.50.1",
+    "react-i18next": "^14.0.5",
+    "react-icons": "^5.0.1",
+    "react-intl": "^6.6.2",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^9.0.1",
+    "react-modal": "^3.16.1",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-swipeable-views": "^0.14.0",
+    "react-toastify": "^10.0.4",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "stream-http": "^3.2.0",
+    "styled-components": "^6.1.8",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.2.1",
+    "jest": "^27.5.1"
+  }
+}

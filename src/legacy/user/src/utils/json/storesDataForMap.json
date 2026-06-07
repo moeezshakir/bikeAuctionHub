@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "location": {
+      "latitude": 31.5502,
+      "longitude": 74.3436,
+      "address": "address 1",
+      "city": "Lahore"
+    },
+    "image": "",
+    "bikeleft": 10,
+    "types_of_bike": ["Mountain Bike", "Road Bike"],
+    "status": "Open",
+    "storeName": "store 1"
+  },
+  {
+    "_id": "2",
+    "location": {
+      "latitude": 31.551,
+      "longitude": 74.344,
+      "address": "address 2",
+      "city": "Lahore"
+    },
+    "image": "",
+    "bikeleft": 5,
+    "types_of_bike": ["Hybrid Bike", "Cruiser Bike"],
+    "status": "Open",
+    "storeName": "store 1"
+  },
+  {
+    "_id": "3",
+    "location": {
+      "latitude": 31.552,
+      "longitude": 74.345,
+      "address": "address 3",
+      "city": "Lahore"
+    },
+    "image": "",
+    "bikeleft": 0,
+    "types_of_bike": ["Electric Bike", "Folding Bike"],
+    "status": "Open",
+    "storeName": "store 1"
+  }
+]

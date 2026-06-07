@@ -1,0 +1,111 @@
+
+> fyp-project-next@1.0.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.9s (492 modules)
+ GET / 200 in 7433ms
+ GET / 200 in 169ms
+ ○ Compiling /admin/[[...slug]] ...
+ ✓ Compiled /user/[[...slug]] in 3.4s (504 modules)
+ GET /admin/admin-signin 200 in 5259ms
+ GET /user/signin 200 in 4268ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1842ms (507 modules)
+ GET /admin/admin-signin 404 in 2629ms
+ GET /_next/static/css/app/layout.css?v=1777062251434 404 in 74ms
+ GET /_next/static/chunks/main-app.js?v=1777062251434 404 in 167ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 129ms
+ GET /admin/admin-signin 404 in 100ms
+ GET /_next/static/css/app/layout.css?v=1777062306671 404 in 65ms
+ GET /_next/static/chunks/main-app.js?v=1777062306671 404 in 95ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 108ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 7.1s (731 modules)
+ GET / 404 in 7836ms
+ GET / 404 in 55ms
+ ✓ Compiled in 1868ms (740 modules)
+ ✓ Compiled / in 404ms (734 modules)
+ GET / 200 in 542ms
+ GET / 307 in 133ms
+ GET /user/signin 200 in 108ms
+ GET /_next/static/chunks/main-app.js?v=1777062457614 404 in 94ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 42ms
+ GET /user/signin 404 in 157ms
+ GET /user/signin 404 in 209ms
+ GET / 404 in 32ms
+ GET /user/signin 404 in 33ms
+ GET /user/signin 404 in 55ms
+ GET /user/signin 404 in 37ms
+ GET /user/signin 404 in 41ms
+ GET /user/signin 404 in 34ms
+ GET /user/signin 404 in 30ms
+ GET /user/signin 404 in 28ms
+ GET /user/signin 404 in 52ms
+ GET / 307 in 100ms
+ GET /user/signin 500 in 5985ms
+ GET /user/signin 500 in 1401ms
+ GET /user/signin 404 in 28ms
+ GET /user/signin 404 in 27ms
+ GET /user/signin 404 in 58ms
+ GET /user/signin 404 in 56ms
+ GET /user/signin 404 in 62ms
+ GET /user/signin 404 in 51ms
+ GET /user/signin 404 in 36ms
+ GET /user/signin 404 in 38ms
+ GET /user/signin 404 in 27ms
+ GET /user/signin 404 in 26ms
+ GET /user/signin 404 in 29ms
+ GET /user/signin 200 in 993ms
+ ✓ Compiled in 954ms (729 modules)
+ GET / 307 in 537ms
+ GET /user/signin 200 in 185ms
+ ✓ Compiled /api/php/[endpoint] in 351ms (302 modules)
+ POST /api/php/login.php 500 in 2240ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 766ms (736 modules)
+ GET / 404 in 1286ms
+ ✓ Compiled in 878ms (736 modules)
+ ✓ Compiled in 6.8s (715 modules)
+ ✓ Compiled in 992ms (715 modules)
+ ✓ Compiled in 509ms (715 modules)
+ ✓ Compiled in 830ms (715 modules)
+ ✓ Compiled in 1202ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 6s (727 modules)
+ ✓ Compiled in 579ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 663ms (713 modules)
+ ✓ Compiled in 317ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 942ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 490ms (713 modules)
+ ✓ Compiled in 284ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 182ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 169ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 191ms (713 modules)
+   Reload env: .env.local
+ ✓ Compiled in 187ms (713 modules)
+ ✓ Compiled in 1506ms (715 modules)
+ ✓ Compiled in 7.8s (724 modules)
+ ✓ Compiled in 3.5s (724 modules)
+ ○ Compiling /signin ...
+ ✓ Compiled /signin in 1267ms (731 modules)
+ ○ Compiling /[...slug] ...
+ ✓ Compiled /[...slug] in 581ms (733 modules)
+ ✓ Compiled /_not-found in 478ms (736 modules)
+ ✓ Compiled /_error in 384ms (738 modules)
+ GET /signin 500 in 3627ms
+ GET /signin 500 in 232ms
+ GET /signin 500 in 803ms
+ GET /signin 500 in 248ms
+[?25h

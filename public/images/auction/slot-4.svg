@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#431407"/>
+      <stop offset="1" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="610" cy="325" r="168" fill="rgba(251,191,36,0.14)"/>
+  <path d="M315 528c88-37 178-57 285-57s197 20 285 57" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="388" cy="528" r="57" fill="#1c1917" stroke="#fbbf24" stroke-width="8"/>
+  <circle cx="812" cy="528" r="57" fill="#1c1917" stroke="#fbbf24" stroke-width="8"/>
+  <path d="M442 478h316l50 50H392l50-50z" fill="#d97706"/>
+  <path d="M518 438h164l32 40H486l32-40z" fill="#fcd34d"/>
+  <text x="600" y="690" text-anchor="middle" fill="#fde68a" font-family="Arial,sans-serif" font-size="28">Auction photo 4</text>
+</svg>

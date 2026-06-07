@@ -1,0 +1,25 @@
+@import url(./authFLowCSSConstants.css);
+
+.container .bx1 {
+  width: 400px;
+  padding: 30px;
+}
+
+.container .bx1 form h2 {
+  color: var(--bg-plus-txt-color);
+  margin-bottom: 0;
+}
+
+.container .bx1 .input-group.fc {
+  margin: 1rem 0;
+}
+
+.container .bx1 button {
+  margin: auto;
+}
+
+@media screen and (max-width: 540px) {
+  .container .bx1 form h2 {
+    font-size: 1.3rem;
+  }
+}

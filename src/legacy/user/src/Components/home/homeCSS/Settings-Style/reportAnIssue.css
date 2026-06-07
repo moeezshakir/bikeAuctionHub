@@ -1,0 +1,151 @@
+@import url("../cssTheme.css");
+
+/* ReportIssuePage.css */
+.reportAnIssue-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reportAnIssue-container .header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 20px;
+  background-color: #f5f6f7;
+  position: sticky;
+  top: 0px;
+}
+
+.reportAnIssue-container .header .moveBack {
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reportAnIssue-container .header .moveBack:hover {
+  outline: 2px solid #000000;
+}
+
+.reportAnIssue-container .header .moveBack svg {
+  width: 20px;
+  height: 20px;
+}
+
+.reportAnIssue-container .header span {
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.reportAnIssue-container .error-message {
+  color: red;
+  font-size: 14px;
+  padding: 3px 4px;
+}
+
+.reportAnIssue-container form {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Adjust the appearance of form fields */
+.reportAnIssue-container .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reportAnIssue-container .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.reportAnIssue-container .form-group input,
+.reportAnIssue-container .form-group textarea {
+  resize: none;
+  border: none;
+}
+
+.reportAnIssue-container .form-group textarea {
+  min-height: 200px;
+}
+
+.reportAnIssue-container .form-group input:focus,
+.reportAnIssue-container .form-group textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.reportAnIssue-container .btn-primary {
+  background-color: #333333;
+  border: 2px solid #333333;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.12s all;
+}
+
+.reportAnIssue-container .btn-primary:hover {
+  background-color: #f5f6f7;
+  color: #333333;
+}
+
+@media only screen and (max-width: 899px) {
+  .reportAnIssue-container .header {
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .reportAnIssue-container form {
+    width: 100%;
+    margin: 0;
+  }
+  .reportAnIssue-container .header span {
+    font-size: 20px;
+  }
+  .reportAnIssue-container .form-group {
+    margin-bottom: 15px;
+  }
+  .reportAnIssue-container .form-control {
+    padding: 8px;
+    font-size: 13px;
+  }
+  .reportAnIssue-container .btn-primary {
+    padding: 6px 16px;
+    font-size: 13px;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .reportAnIssue-container .header span {
+    font-size: 16px;
+  }
+}

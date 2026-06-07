@@ -1,0 +1,226 @@
+@import url("../cssTheme.css");
+
+.setting-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 25px;
+  width: 94%;
+  gap: 14px;
+  /* padding: 0 20px; */
+}
+
+.setting-content-container .headerLine {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-content-container .headerLine span {
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.setting-content-container .settingsTiles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 15px;
+  gap: 10px;
+  width: 100%;
+}
+
+.setting-content-container .settingsTiles .settingsTiesTile {
+  width: 100%;
+  background: #e7e7e7;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 17px 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.setting-content-container .settingsTiles .settingsTiesTile:hover {
+  background: #d4d4d4;
+}
+
+.setting-content-container .settingsTiles .settingsTiesTile span {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: normal;
+  color: #000000;
+}
+
+.setting-content-container .settingsTiles .line {
+  width: 100%;
+  margin: 10px 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.setting-content-container .overlayForDeletingAccount {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.setting-content-container .overlayForDeletingAccount .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 15px;
+}
+
+.setting-content-container .overlayForDeletingAccount .header .moveBack {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.setting-content-container .overlayForDeletingAccount .header .moveBack:hover {
+  outline: 2px solid #000000;
+}
+
+.setting-content-container .overlayForDeletingAccount .header .moveBack svg {
+  width: 20px;
+  height: 20px;
+}
+
+.setting-content-container .overlayForDeletingAccount .contentBox {
+  width: 400px;
+  min-height: 160px;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.setting-content-container
+  .overlayForDeletingAccount
+  .contentBox
+  .warning-message {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+  word-break: break-word;
+}
+
+.setting-content-container
+  .overlayForDeletingAccount
+  .contentBox
+  .delete-account-button {
+  background-color: #333333;
+  border: 2px solid #333333;
+  color: #ffffff;
+  padding: 5px 17px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.12s all;
+}
+
+.setting-content-container
+  .overlayForDeletingAccount
+  .contentBox
+  .delete-account-button:hover {
+  background-color: #f5f6f7;
+  color: #333333;
+}
+
+.setting-content-container
+  .overlayForDeletingAccount
+  .contentBox
+  .delete-account-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+@media only screen and (max-width: 899px) {
+  .setting-content-container .overlayForDeletingAccount {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .setting-content-container {
+    padding: 0;
+  }
+  .setting-content-container .headerLine {
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  .setting-content-container .headerLine span {
+    font-size: 18px;
+  }
+  .setting-content-container .settingsTiles {
+    gap: 8px;
+    padding: 0px;
+  }
+  .setting-content-container .settingsTiles .settingsTiesTile {
+    padding: 15px;
+  }
+  .setting-content-container .settingsTiles .settingsTiesTile:last-child {
+    margin-bottom: 25px;
+  }
+  .setting-content-container .settingsTiles .settingsTiesTile span {
+    font-size: 15px;
+  }
+  .setting-content-container .overlayForDeletingAccount {
+    margin: 10px auto 0;
+  }
+  .setting-content-container .overlayForDeletingAccount .contentBox {
+    min-height: 145px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .setting-content-container .headerLine {
+    padding: 8px 0;
+  }
+  .setting-content-container .headerLine span {
+    font-size: 16px;
+  }
+  .setting-content-container .settingsTiles {
+    gap: 7px;
+  }
+  .setting-content-container .settingsTiles .settingsTiesTile {
+    padding: 13px 15px;
+  }
+  .setting-content-container .settingsTiles .settingsTiesTile span {
+    font-size: 13.5px;
+    font-weight: bold;
+  }
+  .setting-content-container .overlayForDeletingAccount .contentBox {
+    width: 100%;
+    min-height: 125px;
+    padding: 15px;
+  }
+  .setting-content-container
+    .overlayForDeletingAccount
+    .contentBox
+    .delete-account-button {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  .setting-content-container
+    .overlayForDeletingAccount
+    .contentBox
+    .warning-message {
+    font-size: 13px;
+  }
+}

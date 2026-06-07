@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "2",
+    "location": {
+      "latitude": 31.551,
+      "longitude": 74.344,
+      "address": "Sample Address 2"
+    },
+    "image": "path_to_image2.jpg"
+  },
+  {
+    "_id": "3",
+    "location": {
+      "latitude": 31.552,
+      "longitude": 74.345,
+      "address": "Sample Address 3"
+    },
+    "image": "path_to_image3.jpg"
+  }
+]

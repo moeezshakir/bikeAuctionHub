@@ -1,0 +1,149 @@
+@import url("../cssTheme.css");
+
+.ridecontainer {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+}
+
+.ridecontainer .headerline {
+  width: 100%;
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+}
+
+.ridecontainer .headerline span {
+  line-height: normal;
+  font-size: 20px;
+  margin: auto;
+}
+
+.ridecontainer .getRide {
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.ridecontainer .getRide button {
+  background-color: #333333;
+  border: 2px solid #333333;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.12s all;
+  box-shadow: none;
+}
+
+.ridecontainer .getRide button:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.ridecontainer .rideInfo {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.ridecontainer .leaflet-touch .leaflet-control-attribution {
+  display: none !important;
+}
+
+.ridecontainer .mapCompHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 20px;
+  background-color: #f5f6f7;
+}
+
+.ridecontainer .mapCompHeader .moveBack {
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ridecontainer .mapCompHeader .moveBack:hover {
+  outline: 2px solid #000000;
+}
+
+.ridecontainer .mapCompHeader .moveBack svg {
+  width: 20px;
+  height: 20px;
+}
+
+.leaflet-div-icon {
+  border: none !important;
+}
+
+@media only screen and (max-width: 899px) {
+  .ridecontainer {
+    width: 100%;
+    padding: 12px 0 0;
+  }
+  .ridecontainer .getRide {
+    width: 100%;
+    height: 225px;
+  }
+  .ridecontainer .getRide span {
+    font-size: 1.5rem;
+  }
+  .ridecontainer .getRide button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ridecontainer {
+    gap: 12px;
+  }
+  .ridecontainer .getRide {
+    height: 200px;
+  }
+  .ridecontainer .getRide span {
+    font-size: 1.4rem;
+  }
+  .ridecontainer .getRide button {
+    padding: 6px 16px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .ridecontainer .getRide {
+    height: 160px;
+  }
+  .ridecontainer .getRide span {
+    font-size: 1.2rem;
+  }
+  .ridecontainer .getRide button {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}

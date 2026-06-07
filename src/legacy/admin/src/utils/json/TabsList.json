@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Bikes Rental",
+        "slug": "bikesrental"
+    },
+    {
+        "text": "Auction Activity",
+        "slug": "auctionactivity"
+    },
+    {
+        "text": "Report An Issue",
+        "slug": "reportAnIssue"
+    },
+    {
+        "text": "Logout",
+        "slug": "logout"
+    }
+]

@@ -1,0 +1,141 @@
+{
+  "ownedSlotsData": [
+    {
+      "id": "slot1",
+      "bikeImages": [
+        "https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "info": "Bike model XYZ, year 2022, excellent condition",
+      "lowestPrice": 500,
+      "highestPrice": 1000,
+      "participants": [
+        {
+          "_id": "participant1_id",
+          "name": "Participant1",
+          "prize": 600
+        },
+        {
+          "_id": "participant2_id",
+          "name": "Participant2",
+          "prize": 700
+        },
+        {
+          "_id": "participant3_id",
+          "name": "Participant3",
+          "prize": 800
+        }
+      ]
+    },
+    {
+      "id": "slot2",
+      "bikeImages": [
+        "https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "info": "Bike model ABC, year 2020, good condition",
+      "lowestPrice": 600,
+      "highestPrice": 1200,
+      "participants": [
+        {
+          "_id": "participant4_id",
+          "name": "Participant4",
+          "prize": 700
+        },
+        {
+          "_id": "participant5_id",
+          "name": "Participant5",
+          "prize": 900
+        },
+        {
+          "_id": "participant6_id",
+          "name": "Participant6",
+          "prize": 1100
+        }
+      ]
+    }
+  ],
+  "RunningByOtherSlotsData": [
+    {
+      "id": "slot1",
+      "bikeImages": [
+        "https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "info": "Bike model XYZ, year 2022, excellent condition",
+      "lowestPrice": 500,
+      "highestPrice": 1000,
+      "participants": [
+        {
+          "_id": "participant1_id",
+          "name": "Participant1",
+          "prize": 600
+        },
+        {
+          "_id": "participant2_id",
+          "name": "Participant2",
+          "prize": 700
+        },
+        {
+          "_id": "participant3_id",
+          "name": "Participant3",
+          "prize": 800
+        }
+      ]
+    },
+    {
+      "id": "slot2",
+      "bikeImages": [
+        "https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "info": "Bike model ABC, year 2020, good condition",
+      "lowestPrice": 600,
+      "highestPrice": 1200,
+      "participants": [
+        {
+          "_id": "participant4_id",
+          "name": "Participant4",
+          "prize": 700
+        },
+        {
+          "_id": "participant5_id",
+          "name": "Participant5",
+          "prize": 900
+        },
+        {
+          "_id": "participant6_id",
+          "name": "Participant6",
+          "prize": 1100
+        }
+      ]
+    },
+    {
+      "id": "slot3",
+      "bikeImages": [
+        "https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "info": "Bike model LMN, year 2021, fair condition",
+      "lowestPrice": 700,
+      "highestPrice": 1500,
+      "participants": [
+        {
+          "_id": "participant7_id",
+          "name": "Participant7",
+          "prize": 800
+        },
+        {
+          "_id": "participant8_id",
+          "name": "Participant8",
+          "prize": 1000
+        },
+        {
+          "_id": "participant9_id",
+          "name": "Participant9",
+          "prize": 1400
+        }
+      ]
+    }
+  ]
+}

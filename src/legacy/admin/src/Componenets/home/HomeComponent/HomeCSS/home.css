@@ -1,0 +1,213 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 66rem;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background-color: #7f7f7f;
+  border-radius: 6px;
+}
+
+.mainContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #5e5e5e;
+}
+
+.mainContainer .sidebar {
+  min-width: 210px;
+  width: 210px;
+  /* min-height: 650px; */
+  height: 100%;
+  background-color: var(--component-bg-color);
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #333333;
+}
+
+.mainContainer .location-item {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.mainContainer .main {
+  width: 100%;
+}
+
+.mainContainer .componentContainer {
+  width: 100%;
+  background-color: var(--component-bg-color);
+  position: relative;
+  overflow: hidden;
+  margin-left: 220px;
+}
+
+.mainContainer .componentContainer .barbox {
+  background-color: #f5f6f7;
+  padding: 10px;
+}
+
+.mainContainer .sidebar .navCloseBox {
+  padding: 4px;
+  text-align: right;
+  position: relative;
+}
+
+.mainContainer .sidebar .navBarClose {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  width: 25px;
+  height: 25px;
+  color: var(--bg-plus-txt-color);
+  font-size: 18px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  border-radius: 3px;
+  border: 1px solid var(--bg-plus-txt-color);
+}
+
+.mainContainer .sidebar .navBarClose svg {
+  width: 25px;
+  height: 25px;
+}
+
+.mainContainer .sidebar .navBarClose:hover {
+  outline: 2px solid var(--bg-plus-txt-color);
+}
+
+.mainContainer .componentContainer .navbarline {
+  padding: 9px 18px;
+  display: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 710;
+  background-color: var(--component-bg-color);
+}
+
+.mainContainer .componentContainer .navbarline .navBarOpen {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+  border-radius: 3px;
+  color: var(--bg-plus-txt-color);
+  font-weight: 600;
+  border: 1.5px solid var(--bg-plus-txt-color);
+}
+
+.mainContainer .componentContainer .navBarOpen svg {
+  width: 22px;
+  height: 22px;
+}
+
+.mainContainer .componentContainer .navBarOpen:hover {
+  outline: 2px solid #4668a8;
+}
+
+.mainContainer .sidebarOpen {
+  transform: translateX(0) !important;
+}
+
+.mainContainer .sidebarClose {
+  transform: translateX(-100%);
+}
+
+.mainContainer .chat-container {
+  width: 55px;
+  height: 45px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: transform 0.3s;
+  z-index: 1100;
+}
+
+.mainContainer .chat-container svg {
+  width: 55px;
+  height: 55px;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.45));
+}
+
+/* .chatContainerhc {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+} */
+
+.mainContainer .css-y8tvd1-MuiPaper-root-MuiAlert-root {
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100%;
+  z-index: 10000;
+}
+
+.mainContainer .css-y8tvd1-MuiPaper-root-MuiAlert-root .btnfsub {
+  padding: 5px 10px;
+  font-size: 12px;
+  background: none;
+  color: var(--bg-plus-txt-color);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+  }
+  .mainContainer .componentContainer {
+    margin-left: unset;
+    overflow-y: auto;
+  }
+  .leaflet-container {
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .mainContainer .componentContainer .navbarline {
+    display: block;
+  }
+  .mainContainer .sidebar .navBarClose {
+    display: flex;
+  }
+  .mainContainer .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.15s ease;
+    transform: translateX(-100%);
+    overflow-y: auto;
+    min-height: unset;
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .mainContainer .sidebar {
+    width: 100%;
+  }
+}

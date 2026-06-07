@@ -1,0 +1,51 @@
+@import url(./authFLowCSSConstants.css);
+
+/* .authPage .bx {
+  padding: 28px;
+  margin: 20px;
+} */
+
+.authPage .bx form {
+  align-items: center;
+}
+
+.authPage .bx form .inputBox {
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+  gap: 7px;
+}
+
+.authPage .bx form .inputBox input {
+  width: 35px;
+  text-align: center;
+}
+
+.authPage .bx form .btn-nbg {
+  background: none;
+  padding: 4px;
+  margin: 0.4rem auto;
+  color: var(--forBAT-color);
+  transform: scale(1);
+}
+
+.authPage .bx form .btn-nbg:hover {
+  text-decoration: underline;
+}
+
+/* .authPage .formBox form button {
+  margin-bottom: 0;
+} */
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 540px) {
+  .authPage .formBox form .inputBox {
+    flex-wrap: wrap;
+  }
+
+  .authPage .formBox form .btn-nbg {
+    font-size: 14px;
+  }
+}

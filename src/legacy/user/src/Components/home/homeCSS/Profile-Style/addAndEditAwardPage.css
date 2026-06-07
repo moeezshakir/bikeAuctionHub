@@ -1,0 +1,301 @@
+.addAwardDetails {
+  padding: 0 10px 20px;
+  width: 100%;
+  height: 100%;
+  animation: show 0.15s ease;
+  background-color: #f5f6f7;
+}
+
+@keyframes show {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.addAwardDetails .header {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 15px;
+  position: sticky;
+  top: -10px;
+  z-index: 20;
+}
+
+.addAwardDetails .moveback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addAwardDetails .moveback:hover {
+  outline: 2px solid #333333;
+}
+
+.addAwardDetails .header span {
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #333333;
+  margin: auto;
+}
+
+/* .addAwardDetails .header button {
+  position: absolute;
+  right: 0px;
+} */
+
+.addAwardDetails .buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.addAwardDetails .btn {
+  margin-left: 12px;
+  padding: 3px 12px 5px;
+  font-size: 13px;
+  border-radius: 5px;
+  align-self: flex-end;
+  background: none;
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+.addAwardDetails .btn:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.addAwardDetails .getAchievementBox {
+  width: 85%;
+  height: auto;
+  margin: 0 auto 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.addAwardDetails .getAchievementBox .titleSection,
+.addAwardDetails .getAchievementBox .descriptionSection {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+
+.addAwardDetails .getAchievementBox .title {
+  padding: 5px 12px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  font-size: 14px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.11);
+  min-height: 32px;
+  background: #f5f6f7;
+}
+
+.addAwardDetails .getAchievementBox .titleSection input {
+  padding: 7px 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+.addAwardDetails .getAchievementBox .titleSection input:focus {
+  outline: 1px solid var(--bg-plus-txt-color);
+}
+
+.addAwardDetails .getAchievementBox .descriptionSection textarea {
+  width: 100%;
+  min-height: 120px;
+  background: #f5f6f7;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px;
+  color: #797979;
+  box-shadow: none;
+  outline: none;
+  resize: none;
+  /* overflow-y: auto; */
+  font-family: inherit;
+  white-space: break-spaces;
+}
+
+.addAwardDetails .getAchievementBox .descriptionSection .description {
+  width: 100%;
+  min-height: 120px;
+  background: #f5f6f7;
+  border: 1px solid var(--bg-plus-txt-color);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px;
+  color: #797979;
+  box-shadow: none;
+  /* overflow-y: auto; */
+  white-space: break-spaces;
+}
+
+.addAwardDetails .getAchievementBox label {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.addAwardDetails .getAchievementBox .imageBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #cecece;
+  min-height: 400px;
+  max-height: 450px;
+}
+
+.addAwardDetails .getAchievementBox .imageBox .plusBox {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(60px, 10vw, 80px);
+  color: var(--bg-plus-txt-color);
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: 0.1s all;
+}
+
+.addAwardDetails .getAchievementBox .imageBox input {
+  width: 100%;
+  height: 100%;
+}
+
+.addAwardDetails .getAchievementBox .imageBox img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* object-fit: contain; */
+}
+
+.addAwardDetails .getAchievementBox button {
+  padding: 5px 18px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .addAwardDetails .getAchievementBox {
+    padding: 12px;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .addAwardDetails {
+    position: fixed;
+    top: 0;
+    z-index: 2222;
+    background-color: #f5f6f7;
+    height: 100%;
+    padding: 70px 0 20px 0;
+    overflow-y: auto;
+  }
+  .addAwardDetails .header {
+    width: 100%;
+    padding: 9px 18px;
+    background-color: #f5f6f7;
+    /* box-shadow: 0 0 5px rgb(0, 0, 0, 0.3); */
+    position: sticky;
+    top: -10px;
+    z-index: 20;
+  }
+  .addAwardDetails .header span {
+    height: auto;
+    font-size: 21px;
+    line-height: normal;
+  }
+  .addAwardDetails .btn {
+    margin: 0px 12px;
+    padding: 3px 10px;
+  }
+  .addAwardDetails .getAchievementBox {
+    padding: 10px 15px;
+    gap: 8px;
+    width: 100%;
+  }
+  /* .addAwardDetails .getAchievementBox .imageBox {
+    height: 310px;
+  } */
+  .addAwardDetails .header .moveback {
+    left: 12px;
+  }
+  .addAwardDetails .getAchievementBox .imageBox {
+    min-height: unset;
+    max-height: unset;
+    height: 340px;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .addAwardDetails .header .moveback svg {
+    width: 16px;
+  }
+  .addAwardDetails .header span {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .addAwardDetails .getAchievementBox {
+    width: 100%;
+    background: none;
+    box-shadow: none;
+  }
+  .addAwardDetails .buttons {
+    margin-bottom: 0px;
+  }
+  .addAwardDetails .getAchievementBox .titleSection .title,
+  .addAwardDetails .getAchievementBox .titleSection input {
+    background: #ffffff;
+    font-size: 12px;
+    padding: 9px 10px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .addAwardDetails .getAchievementBox label {
+    width: 80%;
+  }
+  .addAwardDetails .getAchievementBox label {
+    width: 100%;
+  }
+  .addAwardDetails .buttons {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .addAwardDetails .btn {
+    font-size: 12px;
+  }
+}

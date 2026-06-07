@@ -1,0 +1,43 @@
+.authPage .formBox .pos-rel {
+  position: relative;
+}
+
+.authPage .formBox input {
+  z-index: 0;
+}
+
+.authPage .formBox .btn {
+  position: absolute;
+  top: 32px;
+  right: 6px;
+  background-color: #f3f3f3;
+  color: #222222;
+  margin: 0;
+  padding: 3px;
+  width: 50px;
+  /* border-left: 2px solid #7b7b7b; */
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.authPage .formBox .btn:hover {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 540px) {
+  .authPage .formBox .btn {
+    width: 44px;
+    height: 20px;
+    top: 26px;
+  }
+  .authPage .formBox .btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}

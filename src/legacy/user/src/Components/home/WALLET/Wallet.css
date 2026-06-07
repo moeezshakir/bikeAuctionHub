@@ -1,0 +1,106 @@
+.walletContainer {
+  /* max-width: 600px; */
+  width: 94%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* width: 100%; */
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.current-balance {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.transaction-section {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group-append {
+  margin-left: -1px;
+}
+
+.reset-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.transaction-history {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+ul li {
+  cursor: pointer;
+}
+
+/* TransactionDetailsModal styles */
+.transaction-details-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  width: 40%;
+}
+
+.transaction-details-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.transaction-details-modal p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* New styles for close and download icons */
+.header-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.download-icon,
+.close-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

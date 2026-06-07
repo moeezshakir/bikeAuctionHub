@@ -1,0 +1,134 @@
+.store-page {
+  width: 94%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.store-page .stickyPosition {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+.store-page .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 20px;
+  background-color: #f5f6f7;
+}
+
+.store-page .header .moveBack {
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.store-page .header .moveBack:hover {
+  outline: 2px solid #000000;
+}
+
+.store-page .header .moveBack svg {
+  width: 20px;
+  height: 20px;
+}
+
+.store-page .header span {
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.store-page .bike-cards-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0 20px 20px;
+}
+
+.store-page .bike-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 280px;
+}
+
+.store-page .bike-card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.store-page .bike-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.store-page .bike-card-content {
+  padding: 16px;
+}
+
+.store-page .bookingFormOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bookingFormOverlay .booking-form {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  width: 50rem;
+  max-width: 50rem;
+  height: 100%;
+  overflow-y: auto;
+  /* z-index: 9999; */
+}
+
+.bookingFormOverlay .booking-form h2 {
+  margin-top: 0;
+}
+
+.bookingFormOverlay .MuiFormControl-root {
+  margin-bottom: 15px;
+}
+
+.bookingFormOverlay .MuiButton-root {
+  margin-top: 10px;
+}

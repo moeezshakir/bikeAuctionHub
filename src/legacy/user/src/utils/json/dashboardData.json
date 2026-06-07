@@ -1,0 +1,79 @@
+{
+  "userLevel": 3,
+  "rideStatus": {
+    "activeRide": {
+      "id": 1,
+      "title": "Mountain Bike Rental",
+      "status": "booked"
+    },
+    "completedRides": 2,
+    "rideHistory": [
+      {
+        "id": 1,
+        "title": "Mountain Bike Rental",
+        "status": "completed",
+        "startTime": "2024-03-15T08:00:00",
+        "endTime": "2024-03-15T10:00:00",
+        "location": "Mountain Trail Park"
+      },
+      {
+        "id": 2,
+        "title": "City Bike Rental",
+        "status": "completed",
+        "startTime": "2024-03-16T09:00:00",
+        "endTime": "2024-03-16T11:00:00",
+        "location": "City Center"
+      }
+    ]
+  },
+  "auctionStatus": {
+    "successfulAuctions": 8,
+    "unsuccessfulAuctions": 2,
+    "auctionHistory": [
+      {
+        "id": 1,
+        "title": "Mountain Bike Rental",
+        "startTime": "2024-03-15T10:00:00",
+        "endTime": "2024-03-15T12:00:00",
+        "status": "successful",
+        "participants": 100,
+        "motorBikeType": "Mountain Bike"
+      },
+      {
+        "id": 2,
+        "title": "Sailing Trip Auction",
+        "startTime": "2024-03-16T14:00:00",
+        "endTime": "2024-03-16T16:00:00",
+        "status": "unsuccessful",
+        "participants": 50,
+        "motorBikeType": "City Bike"
+      }
+    ]
+  },
+  "auctionToBuyBike": {
+    "bikesBought": 3,
+    "buyingHistory": [
+      {
+        "id": 1,
+        "title": "Mountain Bike Auction",
+        "highestBid": 200,
+        "status": "successful",
+        "motorBikeType": "Mountain Bike"
+      },
+      {
+        "id": 2,
+        "title": "City Bike Auction",
+        "highestBid": 150,
+        "status": "successful",
+        "motorBikeType": "City Bike"
+      },
+      {
+        "id": 3,
+        "title": "Mountain Bike Auction",
+        "highestBid": 180,
+        "status": "unsuccessful",
+        "motorBikeType": "Mountain Bike"
+      }
+    ]
+  }
+}

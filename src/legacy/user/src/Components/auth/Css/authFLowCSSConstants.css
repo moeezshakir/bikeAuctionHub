@@ -1,0 +1,30 @@
+:root {
+  --forBAT-color: #ff003c;
+  --bg-dark-color: #3c5688;
+  --btxt-color: #ffffff;
+  --field-box-color: rgba(255, 255, 255, 0.5);
+  --txt-color: #313131;
+  --input-field-color: #f3f3f3;
+  --resposive-bg-color: #ffffff;
+  --error-color: #ff0800;
+}
+
+span {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+input {
+  background-color: var(--input-field-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.11);
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--forBAT-color);
+  color: var(--btxt-color);
+  border: none;
+}

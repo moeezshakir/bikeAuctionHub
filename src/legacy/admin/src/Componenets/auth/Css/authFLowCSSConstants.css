@@ -1,0 +1,31 @@
+:root {
+  --bg-plus-txt-color: #333333;
+  --bg-dark-color: #3c3d41;
+  --txt-color: #ffffff;
+  --field-box-color: rgba(255, 255, 255, 0.5);
+  --box-txt-color: #313131;
+  --input-field-color: #f3f3f3;
+  --resposive-page-bg-color: #ffffff;
+  --error-color: #ff0800;
+  --bg-color: #f5f6f7;
+}
+
+span {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+input {
+  background-color: var(--input-field-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.11);
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--bg-plus-txt-color);
+  color: var(--txt-color);
+  border: none;
+}

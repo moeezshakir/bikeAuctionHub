@@ -1,0 +1,59 @@
+.ride-places-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.ride-places-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.ride-places-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ride-places-form form div {
+  margin-bottom: 15px;
+}
+
+.ride-places-form form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.ride-places-form form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ride-places-form form button {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333333;
+  border: 2px solid #333333;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.ride-places-form form button:hover {
+  background: none;
+  color: #333333;
+}

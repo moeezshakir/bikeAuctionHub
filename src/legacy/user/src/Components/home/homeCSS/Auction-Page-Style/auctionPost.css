@@ -1,0 +1,76 @@
+.slotUpperCover,
+.slotUpperCover .slotCover {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.slotCover .auctionSlotPost {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #dcdcdc;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.slotCover .auctionSlotPost h3 {
+  margin-top: 0;
+}
+
+.slotCover .auctionSlotPost .bike-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+
+.slotCover .auctionSlotPost .bike-image {
+  max-width: 30%;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  min-width: 350px;
+  height: 250px;
+}
+
+.slotCover .auctionSlotPost .bike-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slotCover .auctionSlotPost .bikeInfo {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid;
+}
+
+.slotCover .auctionSlotPost .participant {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  max-height: 400px;
+}
+
+.slotCover .auctionSlotPost .participantTag {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: auto;
+}
+
+.slotCover .auctionSlotPost .participantTag button {
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.slotCover .auctionSlotPost .participantTag p {
+  margin: 0;
+}

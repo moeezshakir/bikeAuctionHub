@@ -1,0 +1,70 @@
+{
+  "terms": {
+    "title": "Terms & Conditons",
+    "last_updated": "2024-03-03",
+    "sections": [
+      {
+        "section_title": "Acceptance of Terms",
+        "content": "By using our services, you agree to comply with these Terms of Service."
+      },
+      {
+        "section_title": "Use of Services",
+        "content": "You agree to use our services only for lawful purposes and in accordance with these Terms."
+      },
+      {
+        "section_title": "User Content",
+        "content": "You retain ownership of any content you submit or upload to our services, but you grant us a license to use that content."
+      },
+      {
+        "section_title": "Intellectual Property",
+        "content": "Our services and content are protected by intellectual property rights, and you agree not to infringe upon those rights."
+      },
+      {
+        "section_title": "Limitation of Liability",
+        "content": "We are not liable for any damages resulting from your use of our services or reliance on information provided."
+      },
+      {
+        "section_title": "Governing Law",
+        "content": "These Terms of Service are governed by the laws of [Jurisdiction]."
+      },
+      {
+        "section_title": "Changes to Terms",
+        "content": "We reserve the right to update or modify these Terms of Service at any time. Your continued use of our services constitutes acceptance of any changes."
+      }
+    ]
+  },
+  "policy": {
+    "title": "Privacy & Policy",
+    "last_updated": "2024-03-03",
+    "sections": [
+      {
+        "section_title": "Introduction",
+        "content": "This Privacy Policy describes how we collect, use, and disclose information when you use our services."
+      },
+      {
+        "section_title": "Information We Collect",
+        "content": "We collect information such as your name, email address, and browsing activity when you use our website or services."
+      },
+      {
+        "section_title": "How We Use Your Information",
+        "content": "We use your information to provide and improve our services, communicate with you, and personalize your experience."
+      },
+      {
+        "section_title": "Information Sharing",
+        "content": "We may share your information with third-party service providers or affiliates for purposes such as analytics and marketing."
+      },
+      {
+        "section_title": "Data Security",
+        "content": "We take reasonable measures to protect your information from unauthorized access, use, or disclosure."
+      },
+      {
+        "section_title": "Your Choices",
+        "content": "You can choose not to provide certain information, but this may limit your ability to use some features of our services."
+      },
+      {
+        "section_title": "Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page."
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+@import url("../cssTheme.css");
+
+.historyModal {
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyModal .modal-content {
+  background-color: #fefefe;
+  padding: 0 0 20px;
+  border: 1px solid #888888;
+  width: 45rem;
+  max-width: 45rem;
+  height: 100vh;
+  /* min-height: 320px;
+  max-height: 480px; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+.historyModal .modal-content .headerLine {
+  background-color: #fefefe;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.historyModal .modal-content .headerLine span {
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.historyModal .modal-content .headerLine .downloadbtn {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  top: 12px;
+}
+
+.historyModal .modal-content .headerLine .downloadbtn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.historyModal .modal-content .headerLine .close {
+  width: 22px;
+  height: 22px;
+  color: #aaaaaa;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.historyModal .modal-content .headerLine .close svg {
+  width: 22px;
+  height: 22px;
+}
+
+.historyModal .modal-content .headerLine .close {
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.historyModal .modal-content .headerLine .close:hover {
+  outline: 2px solid #000000;
+}
+
+.historyModal .modal-content .historyItemBoxCover {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 15px;
+}
+
+.historyModal .modal-content .historyItemBoxCover .historyItemBox {
+  border: 1px solid #dedede;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.historyModal .modal-content .historyItemBoxCover .historyItemBox .itemRow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.historyModal
+  .modal-content
+  .historyItemBoxCover
+  .historyItemBox
+  .itemRow
+  span {
+  min-width: 150px;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.historyModal .modal-content .historyItemBoxCover .historyItemBox .itemRow p {
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .historyModal .modal-content {
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+    max-height: unset;
+    height: 100%;
+  }
+}

@@ -1,0 +1,353 @@
+@import url("../cssTheme.css");
+
+.profileContainer {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 20px;
+}
+
+.profileContainer .headerline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer .headerline span {
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profileContainer .profileBox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.profileContainer .profileBox .pabgl {
+  width: 100%;
+  height: 155px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  position: relative;
+  padding: 12px 20px;
+}
+
+.profileContainer .profileBox .profilePic {
+  min-width: 170px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #cecece;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.profileContainer .profileBox .profilePic img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.profileContainer .profileBox .profilePic span {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #333333;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profileContainer .profileBox .pabgl button {
+  width: auto;
+  height: auto;
+  align-self: flex-end;
+  padding: 5px 12px;
+  background-color: #333333;
+  color: var(--color-white);
+  border: 2px solid #333333;
+  border-radius: 5px;
+  font-size: 12.5px;
+  transition: 0.2s all;
+}
+
+.profileContainer .profileBox .pabgl button:hover {
+  background-color: var(--color-white);
+  color: #333333;
+}
+
+.profileContainer .userProfileInfo,
+.profileContainer .socialLinksBox {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profileContainer .userProfileInfo .upiHederLine,
+.profileContainer .socialLinksBox .headerLine {
+  width: 100%;
+}
+
+.profileContainer .userProfileInfo .upiHederLine span,
+.profileContainer .socialLinksBox .headerLine span {
+  font-size: 17px;
+  line-height: normal;
+}
+
+.profileContainer .userProfileInfo .firstbox,
+.profileContainer .socialLinksBox .userSocialLinks {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  gap: 4px;
+}
+
+.profileContainer .userProfileInfo .firstbox .row,
+.profileContainer .socialLinksBox .userSocialLinks .row {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.profileContainer .userProfileInfo .firstbox .row span,
+.profileContainer .socialLinksBox .userSocialLinks .row span {
+  min-width: 180px;
+  width: 180px;
+  line-height: normal;
+  font-size: 16px;
+  padding: 0;
+}
+
+.profileContainer .userProfileInfo .firstbox .row p,
+.profileContainer .socialLinksBox .userSocialLinks .row p {
+  width: auto;
+  padding: 2px 10px;
+  font-size: 13.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
+.profileContainer .userProfileInfo .firstbox .row input,
+.profileContainer .socialLinksBox .userSocialLinks .row input {
+  width: 100%;
+  padding: 2px 10px;
+  font-size: 13.5px;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+.profileContainer .userProfileInfo .firstbox .row input:focus,
+.profileContainer .socialLinksBox .userSocialLinks .row input:focus {
+  border-bottom: 1px solid #333333;
+}
+
+.profileContainer .awards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px 20px;
+  gap: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.profileContainer .awards .headerLine {
+  width: 100%;
+  /* padding: 0 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileContainer .awards .headerLine .editBtn {
+  padding: 2px 10px;
+  background: none;
+  color: #333333;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.profileContainer .awards .headerLine .editBtn:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.profileContainer .awards .headerLine .heading span {
+  font-size: 17px;
+}
+
+.profileContainer .awards .awardBoxLine {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 20px;
+  gap: 12px;
+  width: 100%;
+  min-height: 70px;
+  height: auto;
+  overflow-x: auto;
+  background-color: #ffffff;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 2px;
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s all;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile .awardTileImage {
+  width: 100%;
+  height: 120px;
+  background: #e6e6e6;
+  border-radius: 5px 5px 0px 0px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile .awardTileImage img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile .awardTileTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+  background: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+  overflow: hidden;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile .awardTileTitle p {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #797979;
+  margin: 0;
+}
+
+.profileContainer .awards .awardBoxLine .awardTile:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+  .profileContainer {
+    width: 100%;
+    gap: 10px;
+    padding: 0 12px;
+  }
+  .profileContainer .headerline {
+    padding: 7px 0;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+  }
+  .profileContainer .profileBox .pabgl {
+    height: 140px;
+    padding: 8px 12px;
+  }
+  .profileContainer .profileBox .profilePic {
+    min-width: 140px;
+    width: 140px;
+    height: 140px;
+  }
+  .profileContainer .userProfileInfo .upiHederLine span,
+  .profileContainer .socialLinksBox .headerLine span {
+    font-size: 15px;
+  }
+  .profileContainer .userProfileInfo .firstbox .row span,
+  .profileContainer .socialLinksBox .userSocialLinks .row span {
+    min-width: 140px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .profileContainer .userProfileInfo .firstbox .row p,
+  .profileContainer .socialLinksBox .userSocialLinks .row p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .profileContainer {
+    gap: 5px;
+  }
+  .profileContainer .profileBox .pabgl {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap: 10px;
+    padding: 0 5px;
+  }
+  .profileContainer .profileBox {
+    margin-bottom: 0;
+  }
+  .profileContainer .profileBox .profilePic {
+    min-width: 125px;
+    width: 125px;
+    height: 125px;
+  }
+  .profileContainer .profileBox .pabgl button {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+  .profileContainer .userProfileInfo,
+  .profileContainer .socialLinksBox {
+    gap: 8px;
+  }
+  .profileContainer .userProfileInfo .firstbox,
+  .profileContainer .socialLinksBox .userSocialLinks {
+    padding: 5px;
+    gap: 2px;
+  }
+  .profileContainer .userProfileInfo .upiHederLine span,
+  .profileContainer .socialLinksBox .headerLine span {
+    font-size: 14px;
+  }
+  .profileContainer .userProfileInfo .firstbox .row,
+  .profileContainer .socialLinksBox .userSocialLinks .row {
+    flex-direction: column;
+  }
+  .profileContainer .userProfileInfo .firstbox .row span,
+  .profileContainer .socialLinksBox .userSocialLinks .row span {
+    font-weight: bold;
+    font-size: 13.5px;
+  }
+  .profileContainer .userProfileInfo .firstbox .row p,
+  .profileContainer .socialLinksBox .userSocialLinks .row p {
+    padding: 2px 0;
+    font-size: 12.5px;
+    white-space: normal;
+  }
+}

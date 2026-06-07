@@ -1,0 +1,45 @@
+.auctionListContaier {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.auctionListContaier .auctionListItem {
+  width: 100% !important;
+  border: 1px solid #cecece !important;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+.auctionListContaier .auctionListItem .imageBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.auctionListContaier .auctionListItem .imageBox img {
+  max-width: 300px;
+  background-size: cover;
+}
+
+.auctionListContaier .auctionListItem .asacb {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.auctionListContaier .auctionListItem .auctionListItemButton {
+  display: flex;
+  gap: 10px;
+  margin: 12px auto;
+}
